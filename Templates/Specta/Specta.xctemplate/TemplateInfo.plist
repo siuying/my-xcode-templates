@@ -8,18 +8,36 @@
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>Test</string>
+	<string>MyClass</string>
 	<key>Description</key>
-	<string>A Specta test case class.</string>
+	<string>A Specta Spec File</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.m</string>
+	<string>___FILEBASENAME___Spec.mm</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the class to spec</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class to Spec</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
 	<key>Platforms</key>
 	<array>
-		<string>com.apple.platform.iphoneos</string>
+	<string>com.apple.platform.iphoneos</string>
+	<string>com.apple.platform.macosx</string>
 	</array>
 	<key>Summary</key>
-	<string>A Kiwi test case.</string>
+	<string>A Specta test case.</string>
 </dict>
 </plist>
