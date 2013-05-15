@@ -7,7 +7,7 @@ force:	delete install
 delete:
 	rm -rf ${XCODE_TEMPLATE_DIR}
 install:
-	mkdir ${XCODE_TEMPLATE_DIR}
-	mkdir ${XCODE_FILE_TEMPLATE_DIR}
+	mkdir -p ${XCODE_TEMPLATE_DIR}
+	mkdir -p ${XCODE_FILE_TEMPLATE_DIR}
 	cp -Rf ${MY_TEMPLATE_DIR}* ${XCODE_FILE_TEMPLATE_DIR}
 
